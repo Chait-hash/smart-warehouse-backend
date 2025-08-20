@@ -118,6 +118,6 @@ app.get("/spike-reset/:id", async (req, res) => {
 
   res.json({ message: "Spike reset" });
 });
-
+//check
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
